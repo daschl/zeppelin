@@ -76,6 +76,7 @@
     <module>bigquery</module>
     <module>alluxio</module>
     <module>scio</module>
+    <module>couchbase</module>
     <module>zeppelin-web</module>
     <module>zeppelin-server</module>
     <module>zeppelin-jupyter</module>

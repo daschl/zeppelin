@@ -36,3 +36,4 @@ pig             org.apache.zeppelin:zeppelin-pig:0.7.0                  Pig inte
 python          org.apache.zeppelin:zeppelin-python:0.7.0               Python interpreter
 scio            org.apache.zeppelin:zeppelin-scio_2.11:0.7.0            Scio interpreter
 shell           org.apache.zeppelin:zeppelin-shell:0.7.0                Shell command
+couchbase       org.apache.zeppelin:zeppelin-couchbase:0.7.0            Couchbase interpreter

@@ -1,0 +1,53 @@
+[
+  {
+    "group": "couchbase",
+    "name": "n1ql",
+    "className": "org.apache.zeppelin.couchbase.CouchbaseN1qlInterpreter",
+    "defaultInterpreter": true,
+    "properties": {
+      "couchbase.hosts": {
+        "envName": null,
+        "propertyName": "couchbase.hosts",
+        "defaultValue": "localhost",
+        "description": "Comma separated Couchbase hosts (DNS name or IP address). Default = localhost. Ex: '192.168.0.12,node2,node3'"
+      }
+    },
+    "editor": {
+      "language": "sql",
+      "editOnDblClick": false
+    }
+  },
+  {
+    "group": "couchbase",
+    "name": "analytics",
+    "className": "org.apache.zeppelin.couchbase.CouchbaseAnalyticsInterpreter",
+    "properties": {
+      "couchbase.hosts": {
+        "envName": null,
+        "propertyName": "couchbase.hosts",
+        "defaultValue": "localhost",
+        "description": "Comma separated Couchbase hosts (DNS name or IP address). Default = localhost. Ex: '192.168.0.12,node2,node3'"
+      }
+    },
+    "editor": {
+      "language": "sql",
+      "editOnDblClick": false
+    }
+  },
+  {
+    "group": "couchbase",
+    "name": "search",
+    "className": "org.apache.zeppelin.couchbase.CouchbaseSearchInterpreter",
+    "properties": {
+      "couchbase.hosts": {
+        "envName": null,
+        "propertyName": "couchbase.hosts",
+        "defaultValue": "localhost",
+        "description": "Comma separated Couchbase hosts (DNS name or IP address). Default = localhost. Ex: '192.168.0.12,node2,node3'"
+      }
+    },
+    "editor": {
+      "editOnDblClick": false
+    }
+  }
+]
